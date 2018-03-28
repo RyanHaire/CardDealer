@@ -55,9 +55,8 @@ public class CardDealer extends Application{
         }
             
         Collections.shuffle(cards);
-        for(int i = 0; i < 5; i++){
-            setUpCards();
-        }  
+        setUpCards();
+        
         
         Button shuffleBtn = new Button("Shuffle");
         shuffleBtn.setAlignment(Pos.CENTER);
